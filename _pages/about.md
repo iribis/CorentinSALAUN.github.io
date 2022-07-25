@@ -16,3 +16,4 @@ My main interests are :
 * Multiple importance sampling
 * Multi-class sampling
 * General variance reduction tools for Monte Carlo
+
