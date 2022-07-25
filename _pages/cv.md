@@ -11,49 +11,64 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* 5th year in Graduate Engenering School, ESIR - Rennes France, 2019
+* French High School Leaving Certificate with Honours, Rennes France, 2015
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+Profesional experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Summer 2019 : Intership in  research and development on Super resoltion
+  * Jouve, Mayenne France
+  * 4 months
+  * Prototype for super resolution developpment in Android
+  * Analysis of the state of art
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Summer 2018 : Team member
+  * McDonalds, Servon France
+  * 4 months
+  * Summer job in a fast food restaurant
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+* Summer 2017 : Intership in JAVA programming
+  * Renault, Guyancourt France
+  * 1 months
+  * JEE programming
+  * Agile developpment
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Summer 2016 : Intership to update a Labview software
+  * UTP, Timisoara Romania
+  * 1 months
+  * Updating an old project
+  * Creating compatibilities for all Windows versions
   
-Service and leadership
+* Summer 2014-2016 : Contract staff
+  * Liffre France
+  * Waiter
+  * Animator for childrens
+  * Team manager for projects
+
+Strengths
 ======
-* Currently signed in to 43 different slack teams
+* C++
+* Machine Learning
+* Programmation GPU (CUDA, OpenGL, ...)
+* Image synthesis
+  * Raytracing
+  * Animation
+
+
+Languages
+======
+* Frensh (Native speaker)
+
+* English (Niveau B2 TOIC)
+
+
+Other experiences
+======
+* Membre of the Junior company of ESIR school
+  * Manager of the documents redaction
+  
+* Membre of the Student organisation of ESIR school
+  * Tutoring manager, 2017-2018
+  * Managing tutoring for ESIR students
+  * Organization of the first GAMEJAM of ESIR
