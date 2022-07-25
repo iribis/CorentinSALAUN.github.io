@@ -17,6 +17,12 @@ Education
 
 Profesional experience
 ======
+* Summer 2020 : Intership in  research on Blue noise error distribution
+  * Unity, Grenoble France
+  * 6 months
+  * Improving state of the art method for a posteriori blue noise error distribution
+  * Analysis of the state of art
+
 * Summer 2019 : Intership in  research and development on Super resoltion
   * Jouve, Mayenne France
   * 4 months
