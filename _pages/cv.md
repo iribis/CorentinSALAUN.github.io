@@ -66,7 +66,7 @@ Languages
 ======
 * Frensh (Native speaker)
 
-* English (Niveau B2 TOIC)
+* English (Niveau B2 TOEIC)
 
 
 Other experiences
