@@ -1,0 +1,52 @@
+{
+    "imageBoxes": [
+        {
+            "title": "Images",
+            "elements": [
+                {
+                    "title": "Reference",
+                    "version": "-",
+                    "image": "Reference.jpg"
+                },
+                {
+                    "title": "Random",
+                    "version": "-",
+                    "image": "Random.jpg"
+                },
+                {
+                    "title": "Abdala_et_al_2020",
+                    "version": "-",
+                    "image": "Abdala_et_al_2020.jpg"
+                },
+                {
+                    "title": "Heitz_et_al_2019",
+                    "version": "-",
+                    "image": "Heitz_et_al_2019.jpg"
+                },
+                {
+                    "title": "Belcour_and_Heitz_2021",
+                    "version": "-",
+                    "image": "Belcour_and_Heitz_2021.jpg"
+                },
+                {
+                    "title": "Ours",
+                    "version": "-",
+                    "image": "Ours.jpg"
+                }
+            ]
+        }
+    ],
+    "stats": [
+        {
+            "title": "Stats",
+            "labels": [
+                "Random",
+                "Abdala_et_al_2020",
+                "Heitz_et_al_2019",
+                "Belcour_and_Heitz_2021",
+                "Ours"
+            ],
+            "series": []
+        }
+    ]
+}

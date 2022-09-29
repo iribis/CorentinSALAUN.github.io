@@ -1,0 +1,249 @@
+<!DOCTYPE doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <meta content="Research Results" name="description"/>
+        <title>
+            Multi-purpose point sampling
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css"/>
+        <link href="utils/report.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="content" id="content">
+            <h1 class="title">
+                Scalable multi-class sampling via filtered sliced optimal transport
+            </h1>
+            <p class="authors">
+                CORENTIN SALAÜN, Max-Planck-Institut für Informatik, Germany<br>
+                ILIYAN GEORGIEV, Autodesk, United Kingdom<br>
+                HANS-PETER SEIDEL, Max-Planck-Institut für Informatik, Germany<br>
+                GURPRIT SINGH, Max-Planck-Institut für Informatik, Germany<br>
+            </p>
+            <h2>
+                Animations
+            </h2>
+            <div class="element-container">
+                <div class="report-preview">
+                    <a href="animations/continuous_class_extraction.gif">
+                        <img class="report-thumb" style="width: 340px; height: 340px" src="animations/continuous_class_extraction.png"/>
+                    </a>
+                    <br/>
+                    Continuous class extraction (23MB GIF)
+                </div>
+                <div class="report-preview">
+                    <a href="animations/rotating_siggraph_logo.gif">
+                        <img class="report-thumb" style="width: 340px; height: 340px" src="animations/rotating_siggraph_logo.png"/>
+                    </a>
+                    <br/>
+                    Rotating SIGGRAPH logo (1.7MB GIF)
+                </div>
+            </div>
+            <h2>
+                Stippling
+            </h2>
+            <div class="element-container">
+                <div class="report-preview">
+                    <a href="stippling/beach.pdf">
+                        <img class="report-thumb" style="width: 170px; height: 345px" src="stippling/beach.jpg"/>
+                    </a>
+                    <br/>
+                    Beach (PDF)
+                </div>
+                <div class="report-preview">
+                    <a href="stippling/elephants.pdf">
+                        <img class="report-thumb" style="width: 340px; height: 225px" src="stippling/elephants.jpg"/>
+                    </a>
+                    <br/>
+                    Elephants (PDF)
+                </div>
+                <div class="report-preview">
+                    <a href="stippling/light_house.pdf">
+                        <img class="report-thumb" style="width: 340px; height: 225px" src="stippling/light_house.jpg"/>
+                    </a>
+                    <br/>
+                    Light house (PDF)
+                </div>
+            </div>
+            <h2>
+                Rendering: Box reconstruction and perceptual filter
+            </h2>
+            <div class="element-container">
+                <div class="report-preview">
+                    <a href="box_perceptual/chopper-titan_1/index.html">
+                        <img class="report-thumb" src="box_perceptual/chopper-titan_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    chopper-titan 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/chopper-titan_4/index.html">
+                        <img class="report-thumb" src="box_perceptual/chopper-titan_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    chopper-titan 4spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/arcsphere_1/index.html">
+                        <img class="report-thumb" src="box_perceptual/arcsphere_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    arcsphere 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/arcsphere_4/index.html">
+                        <img class="report-thumb" src="box_perceptual/arcsphere_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    arcsphere 4spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/buddha_1/index.html">
+                        <img class="report-thumb" src="box_perceptual/buddha_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    buddha 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/buddha_4/index.html">
+                        <img class="report-thumb" src="box_perceptual/buddha_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    buddha 4spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/microcity_1/index.html">
+                        <img class="report-thumb" src="box_perceptual/microcity_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    microcity 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/microcity_4/index.html">
+                        <img class="report-thumb" src="box_perceptual/microcity_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    microcity 4spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/veach-mis_low_res_1/index.html">
+                        <img class="report-thumb" src="box_perceptual/veach-mis_low_res_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    veach-mis 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/veach-mis_low_res_4/index.html">
+                        <img class="report-thumb" src="box_perceptual/veach-mis_low_res_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    veach-mis 4spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/vw-van_1/index.html">
+                        <img class="report-thumb" src="box_perceptual/vw-van_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    vw-van 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="box_perceptual/vw-van_4/index.html">
+                        <img class="report-thumb" src="box_perceptual/vw-van_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    vw-van 4spp
+                </div>
+	    </div>
+	        <h2>
+                Rendering: Gaussian reconstruction and perceptual filter
+            </h2>
+            <div class="element-container">
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/chopper-titan_1/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/chopper-titan_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    chopper-titan 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/chopper-titan_4/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/chopper-titan_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    chopper-titan 4spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/arcsphere_1/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/arcsphere_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    arcsphere 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/arcsphere_4/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/arcsphere_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    arcsphere 4spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/buddha_1/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/buddha_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    buddha 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/buddha_4/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/buddha_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    buddha 4spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/microcity_1/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/microcity_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    microcity 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/microcity_4/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/microcity_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    microcity 4spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/veach-mis_low_res_1/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/veach-mis_low_res_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    veach-mis 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/veach-mis_low_res_4/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/veach-mis_low_res_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    veach-mis 4spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/vw-van_1/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/vw-van_1/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    vw-van 1spp
+                </div>
+                <div class="report-preview">
+                    <a href="gaussian_perceptual/vw-van_4/index.html">
+                        <img class="report-thumb" src="gaussian_perceptual/vw-van_4/thumb.jpg"/>
+                    </a>
+                    <br/>
+                    vw-van 4spp
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
