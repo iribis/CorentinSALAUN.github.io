@@ -1,6 +1,6 @@
 ---
 title: "Regression-based Monte Carlo Integration"
-authors: <p><a href="https://iribis.github.io/">Corentin Salaün</a>, <a href="http://iliyan.com/">Iliyan Georgiev</a>, <a href="https://people.mpi-inf.mpg.de/~hpseidel/">Hans-Peter Seidel</a>, <a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a></p>
+authors: <p><a href="https://iribis.github.io/">Corentin Salaün</a>, <a href="https://profs.etsmtl.ca/agruson/">Adrien Gruson</a>, <a href="https://sonhua.github.io/">Binh-Son Hua</a>, <a href="https://cs.uwaterloo.ca/~thachisu/">Toshiya Hachisuka</a>, <a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a></p>
 collection: publications
 permalink: /publication/2022_Regresion-based_Monte_Carlo_integration
 excerpt: ''
