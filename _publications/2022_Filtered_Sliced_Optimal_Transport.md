@@ -15,7 +15,7 @@ header:
 
 ### Abstract
 
-We propose a multi-class point optimization formulation based on continuous Wasserstein barycenters. Our formulation is designed to handle hundreds to thousands of optimization objectives and comes with a practical optimization scheme. We demonstrate the effectiveness of our framework on various sampling applications like stippling, object placement, and Monte-Carlo integration. We a derive multi-class error bound for perceptual rendering error which can be minimized using our optimization. |
+We propose a multi-class point optimization formulation based on continuous Wasserstein barycenters. Our formulation is designed to handle hundreds to thousands of optimization objectives and comes with a practical optimization scheme. We demonstrate the effectiveness of our framework on various sampling applications like stippling, object placement, and Monte-Carlo integration. We a derive multi-class error bound for perceptual rendering error which can be minimized using our optimization.
 
 
 ### Downloads and links
