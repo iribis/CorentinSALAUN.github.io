@@ -9,10 +9,11 @@ paperurl: 'http://iliyan.com/publications/ScalableMultiClassSampling'
 citation: 'Salaun, Corentin. (2022). "Scalable multi-class sampling via filtered sliced optimal transport" <i>ACM Transactions on Graphics, Volume 41</i>.'
 
 header:
-  teaser: "../images/bio-photo.jpg"
-  thumbnail: "../images/bio-photo.jpg"
+  teaser: "../Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/teaser.jpg"
+  thumbnail: "./Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/thumbnail.jpg"
 ---
 
+![alt text]({{ header.teaser}})
 
 ### Abstract
 
@@ -20,6 +21,6 @@ We propose a multi-class point optimization formulation based on continuous Wass
 
 
 ### Downloads and links
-- [Paper](http://iribis.github.io/files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport.pdf)<br />
+- [Paper](http://iribis.github.io/files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport.pdf)<br />
 - [Supplementals](http://iribis.github.io/extra/FSOT/index.html)
 - [Code](https://github.com/iribis/filtered-sliced-optimal-transport)
