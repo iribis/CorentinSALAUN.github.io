@@ -22,3 +22,15 @@ header:
 ### Downloads and links
 - [Paper](http://iribis.github.io/files/regression-based_Monte_Carlo_integration/regression-based_Monte_Carlo_integration.pdf)<br />
 - [Code](https://github.com/iribis/regressionmc)
+
+### BibTeX reference
+
+    @article{Salaun:2022:RegressionMC,
+        author = {Sala"{u}n, Corentin and Gruson, Adrien and Hua, Binh-Son and Hachisuka, Toshiya and Singh, Gurprit},
+        title = {Regression-Based Monte Carlo Integration},
+        year = {2022},
+        volume = {41},
+        number = {4},
+        doi = {10.1145/3528223.3530095},
+        journal = {ACM Trans. Graph.},
+}   
