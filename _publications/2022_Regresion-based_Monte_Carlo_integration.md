@@ -24,6 +24,12 @@ header:
 - <i class="fas fa-fw fa-link" aria-hidden="true"></i> [Supplementals](http://adrien-gruson.com/research/2022_RegressionMC/)<br />
 - <i class="fab fa-fw fa-github" aria-hidden="true"></i> [Code](https://github.com/iribis/regressionmc)
 
+### Presentation video
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=CWVn3L_JghM
+" target="_blank"><img src="http://img.youtube.com/vi/CWVn3L_JghM/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ### BibTeX reference
 
     @article{Salaun:2022:RegressionMC,
