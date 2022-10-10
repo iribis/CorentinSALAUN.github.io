@@ -12,5 +12,6 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
+  ![image](../images/bio-photo.jpg){: style="float: left"}
   {% include archive-single.html %}
 {% endfor %}

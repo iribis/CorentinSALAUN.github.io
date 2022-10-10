@@ -10,8 +10,6 @@ citation: 'Salaun, Corentin. (2022). "Scalable multi-class sampling via filtered
 ---
 
 
-![image](../images/bio-photo.jpg){: style="float: left"}
-
 ### Abstract
 
 We propose a multi-class point optimization formulation based on continuous Wasserstein barycenters. Our formulation is designed to handle hundreds to thousands of optimization objectives and comes with a practical optimization scheme. We demonstrate the effectiveness of our framework on various sampling applications like stippling, object placement, and Monte-Carlo integration. We a derive multi-class error bound for perceptual rendering error which can be minimized using our optimization. |
