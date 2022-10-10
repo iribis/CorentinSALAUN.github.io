@@ -10,10 +10,10 @@ citation: 'Salaun, Corentin. (2022). "Scalable multi-class sampling via filtered
 
 header:
   teaser: "../files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/teaser.jpg"
-  thumbnail: "../files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/thumbnail.jpg"
+  thumbnail: "../files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/thumbnail.svg"
 ---
 
-![alt text]("../files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/teaser.jpg")
+![Teaser]("../files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/teaser.jpg")
 
 ### Abstract
 
