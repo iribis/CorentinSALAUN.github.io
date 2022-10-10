@@ -26,7 +26,7 @@ We propose a multi-class point optimization formulation based on continuous Wass
 - [Code](https://github.com/iribis/filtered-sliced-optimal-transport)
 
 ### BibTeX reference
-
+<font size=”6”>
     @article{Salaun:2022:ScalableMultiClassSampling,
       author = {Corentin Sala\"un and Iliyan Georgiev and Hans-Peter Seidel and Gurprit Singh},
       title = {Scalable multi-class sampling via filtered sliced optimal transport},
@@ -36,4 +36,4 @@ We propose a multi-class point optimization formulation based on continuous Wass
       number = {6},
       doi = {10.1145/3550454.3555484}
     }
-
+</font>
