@@ -10,7 +10,7 @@ citation: 'Salaun, Corentin. (2022). "Regression-based Monte Carlo Integration" 
 
 header:
   teaser: "http://iribis.github.io/files/regression-based_Monte_Carlo_integration/teaser.jpg"
-  thumbnail: "http://iribis.github.io/files/regression-based_Monte_Carlo_integration/thumbnail.svg"
+  thumbnail: "http://iribis.github.io/files/regression-based_Monte_Carlo_integration/thumbnail.jpg"
 ---
 
 ![Teaser](http://iribis.github.io/files/regression-based_Monte_Carlo_integration/teaser.jpg)
