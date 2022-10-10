@@ -10,7 +10,7 @@ citation: 'Salaun, Corentin. (2022). "Scalable multi-class sampling via filtered
 
 header:
   teaser: "http://iribis.github.io/files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/teaser.jpg"
-  thumbnail: "http://iribis.github.io/files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/thumbnail.jpg"
+  thumbnail: "http://iribis.github.io/files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/thumbnail.svg"
 ---
 
 ![Teaser](http://iribis.github.io/files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/teaser.jpg)
