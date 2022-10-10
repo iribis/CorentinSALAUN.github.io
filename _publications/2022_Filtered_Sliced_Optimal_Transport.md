@@ -9,11 +9,11 @@ paperurl: 'http://iliyan.com/publications/ScalableMultiClassSampling'
 citation: 'Salaun, Corentin. (2022). "Scalable multi-class sampling via filtered sliced optimal transport" <i>ACM Transactions on Graphics, Volume 41</i>.'
 
 header:
-  teaser: "../Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/teaser.jpg"
-  thumbnail: "./Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/thumbnail.jpg"
+  teaser: "../files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/teaser.jpg"
+  thumbnail: "../files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/thumbnail.jpg"
 ---
 
-![alt text]({{ header.teaser}})
+![alt text]("../files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/teaser.jpg")
 
 ### Abstract
 
