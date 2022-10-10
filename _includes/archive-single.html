@@ -13,13 +13,13 @@
 {% endif %}
 <table>
   <tr>
-    <td>
+    <td style="border: 0">
       <a href="{{ post.link }}">
         <img alt="Thumbnail" src="{{ post.header.thumbnail }}"
         width=150" height="150">
      </a>
     </td>
-    <td><div class="{{ include.type | default: "list" }}__item">
+    <td style="border: 0"><div class="{{ include.type | default: "list" }}__item">
       <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
         {% if include.type == "grid" and teaser %}
           <div class="archive__item-teaser">
