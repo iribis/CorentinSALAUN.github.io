@@ -21,7 +21,7 @@ header:
 
 ### Downloads and links
 - [Paper](http://iribis.github.io/files/regression-based_Monte_Carlo_integration/regression-based_Monte_Carlo_integration.pdf)<br />
-- [Code](https://github.com/iribis/regressionmc)
+- <i class="fab fa-fw fa-github" aria-hidden="true">[Code](https://github.com/iribis/regressionmc)
 
 ### BibTeX reference
 
