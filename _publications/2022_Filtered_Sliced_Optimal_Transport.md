@@ -10,6 +10,7 @@ citation: 'Salaun, Corentin. (2022). "Scalable multi-class sampling via filtered
 
 header:
   teaser: "../images/bio-photo.jpg"
+  thumbnail: "../images/bio-photo.jpg"
 ---
 
 

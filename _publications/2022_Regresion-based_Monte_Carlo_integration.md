@@ -10,6 +10,7 @@ citation: 'Salaun, Corentin. (2022). "Regression-based Monte Carlo Integration" 
 
 header:
   teaser: "../images/bio-photo-2.jpg"
+  thumbnail: "../images/bio-photo-2.jpg"
 ---
 
 ### Abstract
