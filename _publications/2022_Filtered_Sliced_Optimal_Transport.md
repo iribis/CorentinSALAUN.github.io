@@ -10,8 +10,9 @@ citation: 'Salaun, Corentin. (2022). "Scalable multi-class sampling via filtered
 ---
 
 <div style="float:left;margin:0 10px 10px 0" markdown="1">
-    ![book](/images/bio-photo.jpg)
+    ![book]()
 </div>
+![image](../images/bio-photo.jpg){: style="float: left"}
 
 ### Abstract
 
