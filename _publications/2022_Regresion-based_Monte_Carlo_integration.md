@@ -21,7 +21,7 @@ header:
 
 ### Downloads and links
 - <i class="fa-regular fa-file" aria-hidden="true"></i> [Paper](http://iribis.github.io/files/regression-based_Monte_Carlo_integration/regression-based_Monte_Carlo_integration.pdf)<br />
-- <i class="fa-duotone fa-browser" aria-hidden="true"></i> [Supplementals](http://adrien-gruson.com/research/2022_RegressionMC/)<br />
+- <i class="fas fa-fw fa-link" aria-hidden="true"></i> [Supplementals](http://adrien-gruson.com/research/2022_RegressionMC/)<br />
 - <i class="fab fa-fw fa-github" aria-hidden="true"></i> [Code](https://github.com/iribis/regressionmc)
 
 ### BibTeX reference
