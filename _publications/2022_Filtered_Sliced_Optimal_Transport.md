@@ -24,3 +24,15 @@ We propose a multi-class point optimization formulation based on continuous Wass
 - [Paper](http://iribis.github.io/files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport.pdf)<br />
 - [Supplementals](http://iribis.github.io/extra/FSOT/index.html)
 - [Code](https://github.com/iribis/filtered-sliced-optimal-transport)
+
+### BibTeX reference
+
+    @article{Salaun:2022:ScalableMultiClassSampling,
+      author = {Corentin Sala\"un and Iliyan Georgiev and Hans-Peter Seidel and Gurprit Singh},
+      title = {Scalable multi-class sampling via filtered sliced optimal transport},
+      journal = {ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia)},
+      year = {2022},
+      volume = {41},
+      number = {6},
+      doi = {10.1145/3550454.3555484}
+    }
