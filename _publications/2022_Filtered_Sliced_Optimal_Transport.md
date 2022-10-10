@@ -1,6 +1,6 @@
 ---
 title: "Scalable multi-class sampling via filtered sliced optimal transport"
-authors: <a href="https://iribis.github.io/">Corentin Salaün</a><p>, </p><a href="http://iliyan.com/">Iliyan Georgiev</a><p>, </p><a href="https://people.mpi-inf.mpg.de/~hpseidel/">Hans-Peter Seidel</a><p>, </p><a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a>
+authors: <p><a href="https://iribis.github.io/">Corentin Salaün</a>, <a href="http://iliyan.com/">Iliyan Georgiev</a>, <a href="https://people.mpi-inf.mpg.de/~hpseidel/">Hans-Peter Seidel</a>, <a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a></p>
 collection: publications
 permalink: /publication/2022_Filtered_Sliced_Optimal_Transport
 excerpt: ''
