@@ -9,9 +9,11 @@ paperurl: 'https://profs.etsmtl.ca/agruson/publication/2022_RegressionMC/'
 citation: 'Salaun, Corentin. (2022). "Regression-based Monte Carlo Integration" <i>ACM Transactions on Graphics, Volume 41</i>.'
 
 header:
-  teaser: "../images/bio-photo-2.jpg"
-  thumbnail: "../images/bio-photo-2.jpg"
+  teaser: "http://iribis.github.io/files/regression-based_Monte_Carlo_integration/teaser.jpg"
+  thumbnail: "http://iribis.github.io/files/regression-based_Monte_Carlo_integration/thumbnail.svg"
 ---
+
+![Teaser](http://iribis.github.io/files/regression-based_Monte_Carlo_integration/teaser.jpg)
 
 ### Abstract
 
