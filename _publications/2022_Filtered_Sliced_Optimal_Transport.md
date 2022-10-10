@@ -21,8 +21,8 @@ We propose a multi-class point optimization formulation based on continuous Wass
 
 
 ### Downloads and links
-- [Paper](http://iribis.github.io/files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport.pdf)<br />
-- [Supplementals](http://iribis.github.io/extra/FSOT/index.html)
+- <i class="fa-regular fa-file"></i> [Paper](http://iribis.github.io/files/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport/Scalable_multi-class_sampling_via_filtered_sliced_optimal_transport.pdf)<br />
+- <i class="fa-solid fa-file-lines"></i> [Supplementals](http://iribis.github.io/extra/FSOT/index.html)
 - <i class="fab fa-fw fa-github" aria-hidden="true"></i> [Code](https://github.com/iribis/filtered-sliced-optimal-transport)
 
 ### BibTeX reference
