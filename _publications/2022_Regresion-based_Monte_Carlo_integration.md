@@ -26,13 +26,9 @@ header:
 
 ### Presentation video
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=CWVn3L_JghM
-" target="_blank"><img src="http://img.youtube.com/vi/CWVn3L_JghM/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
 <iframe
     width="640"
-    height="480"
+    height="380"
     src="https://www.youtube.com/embed/CWVn3L_JghM"
     frameborder="0"
     allow="autoplay; encrypted-media"
