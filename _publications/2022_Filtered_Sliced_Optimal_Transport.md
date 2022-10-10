@@ -1,5 +1,6 @@
 ---
 title: "Scalable multi-class sampling via filtered sliced optimal transport"
+authors: "[Corentin Salaün](https://iribis.github.io/)"
 collection: publications
 permalink: /publication/2022_Filtered_Sliced_Optimal_Transport
 excerpt: ''

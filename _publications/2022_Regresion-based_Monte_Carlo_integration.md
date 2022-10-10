@@ -1,5 +1,6 @@
 ---
 title: "Regression-based Monte Carlo Integration"
+authors: "[Corentin Salaün](https://iribis.github.io/)"
 collection: publications
 permalink: /publication/2022_Regresion-based_Monte_Carlo_integration
 excerpt: ''
