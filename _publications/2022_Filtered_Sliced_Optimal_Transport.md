@@ -5,6 +5,7 @@ permalink: /publication/2022_Filtered_Sliced_Optimal_Transport
 excerpt: ''
 date: 2022-09-26
 venue: 'ACM Transactions on Graphics, Volume 41'
+conference: 'ACM Siggraph asia 2022 (Journal track)'
 paperurl: 'http://iliyan.com/publications/ScalableMultiClassSampling'
 citation: 'Salaun, Corentin. (2022). "Scalable multi-class sampling via filtered sliced optimal transport" <i>ACM Transactions on Graphics, Volume 41</i>.'
 

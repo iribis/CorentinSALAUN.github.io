@@ -5,6 +5,7 @@ permalink: /publication/2022_Regresion-based_Monte_Carlo_integration
 excerpt: ''
 date: 2022-07-22
 venue: 'ACM Transactions on Graphics, Volume 41'
+conference: 'ACM Siggraph 2022 (Journal track)'
 paperurl: 'https://profs.etsmtl.ca/agruson/publication/2022_RegressionMC/'
 citation: 'Salaun, Corentin. (2022). "Regression-based Monte Carlo Integration" <i>ACM Transactions on Graphics, Volume 41</i>.'
 
