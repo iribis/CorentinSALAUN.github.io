@@ -4,10 +4,9 @@ authors: <p><a href="https://graphics.cg.uni-saarland.de/people/korac.html/">Mi�
 collection: publications
 permalink: /publication/2023_Filtered_Sliced_Optimal_Transport
 excerpt: ''
-date: 2022-09-26
-venue: 'ACM Transactions on Graphics, Volume 41'
-conference: 'ACM Siggraph asia 2022 (Journal track)'
-paperurl: 'http://iliyan.com/publications/PerceptualErrorOptimization '
+date: 2023-10-02
+venue: 'SIGGRAPH Asia 2023 Conference Papers'
+conference: 'ACM Siggraph asia 2023 (Conference track)'
 citation: 'Korać, Miša. (2023). "Perceptual error optimization for Monte Carlo animation rendering" <i>SIGGRAPH Asia 2023 Conference Papers</i>.'
 
 header:
