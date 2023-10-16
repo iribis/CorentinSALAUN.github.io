@@ -1,6 +1,6 @@
 ---
 title: "Perceptual error optimization for Monte Carlo animation rendering"
-authors: <p><a href="https://graphics.cg.uni-saarland.de/people/korac.html/">Miša Korać</a>,<a href="https://iribis.github.io/">Corentin Salaün</a>, <a href="http://iliyan.com/">Iliyan Georgiev</a>, <a href="https://graphics.cg.uni-saarland.de/people/grittmann.html">Pascal Grittmann</a>, <a href="https://graphics.cg.uni-saarland.de/people/slusallek.html">Philipp Slusallek</a>, <a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a></p>
+authors: <p><a href="https://graphics.cg.uni-saarland.de/people/korac.html">Miša Korać</a>,<a href="https://iribis.github.io/">Corentin Salaün</a>, <a href="http://iliyan.com/">Iliyan Georgiev</a>, <a href="https://graphics.cg.uni-saarland.de/people/grittmann.html">Pascal Grittmann</a>, <a href="https://graphics.cg.uni-saarland.de/people/slusallek.html">Philipp Slusallek</a>, <a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a></p>
 collection: publications
 permalink: /publication/2023_Filtered_Sliced_Optimal_Transport
 excerpt: ''
