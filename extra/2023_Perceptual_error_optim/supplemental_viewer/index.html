@@ -1,0 +1,605 @@
+<!DOCTYPE doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <meta content="Research Results" name="description"/>
+        <title>
+            Perceptual error optimization for temporal Monte Carlo rendering
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css"/>
+        <link href="utils/report.css" rel="stylesheet"/>
+    </head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+    <script type="text/javascript">
+
+        var temporal_filter_string = "perceptual";
+        var spp_string = "1spp";
+        var sigma_string = "sigma_2_1";
+        var search_idx_found = 0;
+
+        function display_div(){
+            let div_id = temporal_filter_string + "_" + spp_string + "_" + sigma_string + "_results";
+            
+            let div_id_list = document.querySelectorAll('*[id]:not([id="content"], [id="select_temporal_filter"], [id="select_spp"], [id="select_spatial_sigma"], [id="no_result"])');
+
+            search_idx_found = -1;
+            for (let idx = 0; idx < div_id_list.length; idx++) {
+                if(div_id_list[idx].id == div_id){
+                    $("#" + div_id_list[idx].id).show();
+                    search_idx_found = idx;
+                } else {
+                    $("#" + div_id_list[idx].id).hide();
+                }
+            }
+
+            if (search_idx_found == -1) {
+                $("#no_result").show();
+            } else {
+                $("#no_result").hide();
+            }
+        }
+
+        $(document).ready(function(){
+            $('#select_temporal_filter').on('change', function() {
+                temporal_filter_string = this.value;
+                display_div();
+            });
+
+            $('#select_spp').on('change', function() {
+                spp_string = this.value;
+                display_div();
+            });
+
+            $('#select_spatial_sigma').on('change', function() {
+                sigma_string = this.value;
+                display_div();
+            });
+        });
+
+        $( window ).on( "load", display_div );
+    </script>
+    <body>
+        <div class="content" id="content">
+            <h1 class="title">
+                Perceptual error optimization for temporal Monte Carlo rendering
+            </h1>
+            <p class="authors">      
+                Miša Korać, Corentin Salaün, Iliyan Georgiev, Pascal Grittmann, Philipp Slusallek, Karol Myszkowski, Gurprit Singh
+            </p>
+            <h2>
+                Video Results
+            </h2>            
+            <div class="element-container">
+                We also provide video results, in which we showcase perceptual (labeled as TAA OFF) and perceptual TAA (labeled as TAA ON) results for two scenes.<br/>
+                Before playing the video, please make sure that:
+                <ul>
+                    <li>You have an up-to-date video player. We recommend <a href="https://www.videolan.org/vlc/">VLC Player</a>.</li>
+                    <li>Make sure that the player of your choice presents the videos as originally encoded. In case you are using VLC make sure that the interlacing option is turned off in the settings.</li>
+                    <li>Make sure that the video is displayed as closely to 60FPS as possible.</li>
+                    <li>You are watching the video from the correct distance from the monitor, which should be at least 2 times the height of the display.
+                        As you further move away from the screen you should see that our method flickers less and less, while the other two methods have the appearance of noise move around.</li>
+                </ul>
+            </div>
+
+            <h2>
+                Results
+            </h2>
+                <b>Before selecting a scene, please set again all the settings!</b>
+            <table>
+                <tr>
+                    <td>Temporal Filter</td>
+                    <td>SPP Count</td>
+                    <td>Sigma Value</td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- Temporal Filter Choice -->
+                        <select id="select_temporal_filter"> 
+                            <option value="perceptual" selected="selected">Perceptual Filtering</option> 
+                            <option value="taa">Temporal Anti-Aliasing</option> 
+                            <option value="taa_and_perceptual">Perceptual Filtering and Temporal Anti-Aliasing</option>
+                        </select>
+                    </td>
+                    <td>
+                        <!-- Spp Choice -->
+                        <select id="select_spp">
+                            <option value="1spp" selected="selected">1 spp</option>
+                            <option value="4spp">4 spp</option>
+                        </select>
+                    </td>
+                    <td>
+                        <!-- Spatial Sigma Choice -->
+                        <select id="select_spatial_sigma">
+                            <option value="sigma_2_1" selected="selected">2.1</option>
+                            <option value="sigma_1_9">1.9</option>
+                        </select>
+                    </td>
+                </tr>            
+            </table>
+            
+            <div id="perceptual_1spp_sigma_2_1_results">
+                <div class="element-container">
+                    <div class="report-preview">
+                        <a href="scenes/chopper-titan_perception/index.html">
+                            <img class="report-thumb" src="scenes/chopper-titan_perception/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Chopper Titan
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/living-room_perception/index.html">
+                            <img class="report-thumb" src="scenes/living-room_perception/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Living Room
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/sssdragon_enviroment_map_perception/index.html">
+                            <img class="report-thumb" src="scenes/sssdragon_enviroment_map_perception/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Stanford Dragon
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/staircase2_perception/index.html">
+                            <img class="report-thumb" src="scenes/staircase2_perception/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Modern Hall
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/teapot_perception/index.html">
+                            <img class="report-thumb" src="scenes/teapot_perception/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Utah Teapot
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/tt_perception/index.html">
+                            <img class="report-thumb" src="scenes/tt_perception/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Audi TT
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/veach-mis_perception/index.html">
+                            <img class="report-thumb" src="scenes/veach-mis_perception/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Veach MIS
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/vw-van_perception/index.html">
+                            <img class="report-thumb" src="scenes/vw-van_perception/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        VW Type2
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/white-room_perception/index.html">
+                            <img class="report-thumb" src="scenes/white-room_perception/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        The White Room
+                    </div>
+                </div>
+            </div>
+
+            <div id="taa_1spp_sigma_2_1_results">
+                <div class="element-container">
+                    <div class="report-preview">
+                        <a href="scenes/chopper-titan_taa/index.html">
+                            <img class="report-thumb" src="scenes/chopper-titan_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Chopper Titan
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/living-room_taa/index.html">
+                            <img class="report-thumb" src="scenes/living-room_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Living Room
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/sssdragon_enviroment_map_taa/index.html">
+                            <img class="report-thumb" src="scenes/sssdragon_enviroment_map_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Stanford Dragon
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/staircase2_taa/index.html">
+                            <img class="report-thumb" src="scenes/staircase2_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Modern Hall
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/teapot_taa/index.html">
+                            <img class="report-thumb" src="scenes/teapot_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Utah Teapot
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/tt_taa/index.html">
+                            <img class="report-thumb" src="scenes/tt_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Audi TT
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/veach-mis_taa/index.html">
+                            <img class="report-thumb" src="scenes/veach-mis_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Veach MIS
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/vw-van_taa/index.html">
+                            <img class="report-thumb" src="scenes/vw-van_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        VW Type2
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/white-room_taa/index.html">
+                            <img class="report-thumb" src="scenes/white-room_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        The White Room
+                    </div>
+                </div>
+            </div>
+
+            <div id="taa_and_perceptual_1spp_sigma_2_1_results">
+                <div class="element-container">
+                    <div class="report-preview">
+                        <a href="scenes/chopper-titan_perception_and_taa/index.html">
+                            <img class="report-thumb" src="scenes/chopper-titan_perception_and_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Chopper Titan
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/living-room_perception_and_taa/index.html">
+                            <img class="report-thumb" src="scenes/living-room_perception_and_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Living Room
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/sssdragon_enviroment_map_perception_and_taa/index.html">
+                            <img class="report-thumb" src="scenes/sssdragon_enviroment_map_perception_and_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Stanford Dragon
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/staircase2_perception_and_taa/index.html">
+                            <img class="report-thumb" src="scenes/staircase2_perception_and_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Modern Hall
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/teapot_perception_and_taa/index.html">
+                            <img class="report-thumb" src="scenes/teapot_perception_and_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Utah Teapot
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/tt_perception_and_taa/index.html">
+                            <img class="report-thumb" src="scenes/tt_perception_and_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Audi TT
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/veach-mis_perception_and_taa/index.html">
+                            <img class="report-thumb" src="scenes/veach-mis_perception_and_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Veach MIS
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/vw-van_perception_and_taa/index.html">
+                            <img class="report-thumb" src="scenes/vw-van_perception_and_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        VW Type2
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/white-room_perception_and_taa/index.html">
+                            <img class="report-thumb" src="scenes/white-room_perception_and_taa/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        The White Room
+                    </div>
+                </div>
+            </div>
+
+            <div id="perceptual_1spp_sigma_1_9_results">
+                <div class="element-container">
+                    <div class="report-preview">
+                        <a href="scenes/chopper-titan_perception_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/chopper-titan_perception_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Chopper Titan
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/living-room_perception_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/living-room_perception_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Living Room
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/sssdragon_enviroment_map_perception_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/sssdragon_enviroment_map_perception_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Stanford Dragon
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/staircase2_perception_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/staircase2_perception_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Modern Hall
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/teapot_perception_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/teapot_perception_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Utah Teapot
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/tt_perception_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/tt_perception_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Audi TT
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/veach-mis_perception_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/veach-mis_perception_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Veach MIS
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/vw-van_perception_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/vw-van_perception_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        VW Type2
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/white-room_perception_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/white-room_perception_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        The White Room
+                    </div>
+                </div>
+            </div>
+
+            <div id="taa_1spp_sigma_1_9_results">
+                <div class="element-container">
+                    <div class="report-preview">
+                        <a href="scenes/chopper-titan_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/chopper-titan_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Chopper Titan
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/living-room_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/living-room_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Living Room
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/sssdragon_enviroment_map_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/sssdragon_enviroment_map_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Stanford Dragon
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/staircase2_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/staircase2_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Modern Hall
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/teapot_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/teapot_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Utah Teapot
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/tt_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/tt_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Audi TT
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/veach-mis_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/veach-mis_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Veach MIS
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/vw-van_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/vw-van_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        VW Type2
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/white-room_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/white-room_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        The White Room
+                    </div>
+                </div>
+            </div>
+
+            <div id="taa_and_perceptual_1spp_sigma_1_9_results">
+                <div class="element-container">
+                    <div class="report-preview">
+                        <a href="scenes/chopper-titan_perception_and_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/chopper-titan_perception_and_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Chopper Titan
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/living-room_perception_and_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/living-room_perception_and_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Living Room
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/sssdragon_enviroment_map_perception_and_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/sssdragon_enviroment_map_perception_and_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Stanford Dragon
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/staircase2_perception_and_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/staircase2_perception_and_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Modern Hall
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/teapot_perception_and_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/teapot_perception_and_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Utah Teapot
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/tt_perception_and_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/tt_perception_and_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Audi TT
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/veach-mis_perception_and_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/veach-mis_perception_and_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Veach MIS
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/vw-van_perception_and_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/vw-van_perception_and_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        VW Type2
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/white-room_perception_and_taa_sigma_1_9/index.html">
+                            <img class="report-thumb" src="scenes/white-room_perception_and_taa_sigma_1_9/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        The White Room
+                    </div>
+                </div>
+            </div>
+
+            <div id="perceptual_4spp_sigma_2_1_results">
+                <div class="element-container">
+                    <div class="report-preview">
+                        <a href="scenes/chopper-titan_perception_4spp/index.html">
+                            <img class="report-thumb" src="scenes/chopper-titan_perception_4spp/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Chopper Titan
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/living-room_perception_4spp/index.html">
+                            <img class="report-thumb" src="scenes/living-room_perception_4spp/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Living Room
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/sssdragon_enviroment_map_perception_4spp/index.html">
+                            <img class="report-thumb" src="scenes/sssdragon_enviroment_map_perception_4spp/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Stanford Dragon
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/staircase2_perception_4spp/index.html">
+                            <img class="report-thumb" src="scenes/staircase2_perception_4spp/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Modern Hall
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/teapot_perception_4spp/index.html">
+                            <img class="report-thumb" src="scenes/teapot_perception_4spp/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Utah Teapot
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/tt_perception_4spp/index.html">
+                            <img class="report-thumb" src="scenes/tt_perception_4spp/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Audi TT
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/veach-mis_perception_4spp/index.html">
+                            <img class="report-thumb" src="scenes/veach-mis_perception_4spp/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        Veach MIS
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/vw-van_perception_4spp/index.html">
+                            <img class="report-thumb" src="scenes/vw-van_perception_4spp/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        VW Type2
+                    </div>
+                    <div class="report-preview">
+                        <a href="scenes/white-room_perception_4spp/index.html">
+                            <img class="report-thumb" src="scenes/white-room_perception_4spp/thumb.jpg"/>
+                        </a>
+                        <br/>
+                        The White Room
+                    </div>
+                </div>
+            </div>
+
+            <div id="no_result">
+                <h2>
+                    No result available for the given combination!
+                </h2>
+            </div>
+        </div>
+    </body>
+</html>
