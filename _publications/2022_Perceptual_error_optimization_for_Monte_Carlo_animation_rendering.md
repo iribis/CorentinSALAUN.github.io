@@ -23,6 +23,7 @@ Independently estimating pixel values in Monte Carlo rendering results in a perc
 
 ### Downloads and links
 - <img width="20px" src="http://iribis.github.io/assets/fonts/file-pdf-solid.svg"> [Paper](http://iribis.github.io/files/Perceptual_error_optimization_for_Monte Carlo_animation_rendering/2023-korac-perceptual.pdf)<br />
-- <i class="fas fa-fw fa-link" aria-hidden="true"></i> [Supplementals](http://iribis.github.io/extra/2023_Perceptual_error_optim/2023-korac-perceptual-supp.pdf)<br />
+- <i class="fas fa-fw fa-link" aria-hidden="true"></i> [Supplementals Document](http://iribis.github.io/extra/2023_Perceptual_error_optim/2023-korac-perceptual-supp.pdf)<br />
+- <i class="fas fa-fw fa-link" aria-hidden="true"></i> [Example tiles](http://iribis.github.io/extra/2023_Perceptual_error_optim/2023_korac_tile_data.zip)<br />
 
 
