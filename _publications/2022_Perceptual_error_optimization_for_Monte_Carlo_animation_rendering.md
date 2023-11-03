@@ -1,6 +1,6 @@
 ---
 title: "Perceptual error optimization for Monte Carlo animation rendering"
-authors: <p><a href="https://graphics.cg.uni-saarland.de/people/korac.html">Miša Korać</a>,<a href="https://iribis.github.io/">Corentin Salaün</a>, <a href="http://iliyan.com/">Iliyan Georgiev</a>, <a href="https://graphics.cg.uni-saarland.de/people/grittmann.html">Pascal Grittmann</a>, <a href="https://graphics.cg.uni-saarland.de/people/slusallek.html">Philipp Slusallek</a>, <a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a></p>
+authors: <p><a href="https://graphics.cg.uni-saarland.de/people/korac.html">Miša Korać</a>, <a href="https://iribis.github.io/">Corentin Salaün</a>, <a href="http://iliyan.com/">Iliyan Georgiev</a>, <a href="https://graphics.cg.uni-saarland.de/people/grittmann.html">Pascal Grittmann</a>, <a href="https://graphics.cg.uni-saarland.de/people/slusallek.html">Philipp Slusallek</a>, <a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a></p>
 collection: publications
 permalink: /publication/2023_Filtered_Sliced_Optimal_Transport
 excerpt: ''
@@ -24,6 +24,20 @@ Independently estimating pixel values in Monte Carlo rendering results in a perc
 ### Downloads and links
 - <img width="20px" src="http://iribis.github.io/assets/fonts/file-pdf-solid.svg"> [Paper](http://iribis.github.io/files/Perceptual_error_optimization_for_Monte Carlo_animation_rendering/2023-korac-perceptual.pdf)<br />
 - <i class="fas fa-fw fa-link" aria-hidden="true"></i> [Supplementals Document](http://iribis.github.io/extra/2023_Perceptual_error_optim/2023-korac-perceptual-supp.pdf)<br />
-- <i class="fas fa-fw fa-link" aria-hidden="true"></i> [Example tiles](http://iribis.github.io/extra/2023_Perceptual_error_optim/2023_korac_tile_data.zip)<br />
+- <i class="fas fa-fw fa-link" aria-hidden="true"></i> <a href="http://iribis.github.io/extra/2023_Perceptual_error_optim/2023_korac_tile_data.zip" download="2023_korac_tile_data.zip">Example tiles</a><br />
 
 
+### BibTeX reference
+
+    @inproceedings{Korac:2023:PerceptualErrorOptimizationAnimation,
+        author = {Mi\v{s}a Kora\'{c} and Corentin Sala\"{u}n and Iliyan Georgiev and Pascal Grittmann and Philipp Slusallek and Karol Myszkowski and Gurprit Singh},
+        title = {Perceptual error optimization for Monte Carlo animation rendering},
+        booktitle = {ACM SIGGRAPH Asia 2023 Conference Proceedings},
+        year = {2023},
+        doi = {10.1145/3610548.3618146},
+        isbn = {979-8-4007-0315-7/23/12}
+    }
+
+### Acknowledgements
+
+This project has received funding from the European Union’s Horizon 2020 research and innovation program under Marie SkłodowskaCurie grant agreement no. 956585. We thank the anonymous reviewers for their feedback, and the authors of the following scenes: julioras3d (Chopper), NewSee2l035 (Modern Hall), Benedikt Bitterli (Utah Teapot), Wig42 (Living Room), and Jay Hardy (White Room).
