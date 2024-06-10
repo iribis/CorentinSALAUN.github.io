@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-Mathematics_refresher_course
 venue: "Rennes 1, BUT1 GEII"
-date: 2023
+date: 2023-09-01
 location: "Rennes, France"
 ---
 

@@ -4,7 +4,7 @@ collection: teaching
 type: "Advanced lecture"
 permalink: /teaching/Realistic_Image_Synthesis
 venue: "Universität des Saarlandes, Computer Graphics"
-date: 2024
+date: 2024-05-01
 location: "Saarbrücken, Germany"
 ---
 
