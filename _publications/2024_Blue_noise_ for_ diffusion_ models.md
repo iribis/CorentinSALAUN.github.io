@@ -10,7 +10,7 @@ conference: 'ACM Siggraph 2024 (Conference track)'
 citation: 'Huang, Xingchang. (2024). "Blue noise for diffusion models" <i>SIGGRAPH 2024 Conference Papers</i>.'
 
 header:
-  teaser: "http://iribis.github.io/files/Blue_noise_for_diffusion_models/teaser.jpg"
+  teaser: "http://iribis.github.io/files/Blue_noise_for_diffusion_models/teaser.png"
   thumbnail: "http://iribis.github.io/files/Blue_noise_for_diffusion_models/thumbnail.png"
 ---
 
