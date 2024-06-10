@@ -14,7 +14,7 @@ header:
   thumbnail: "http://iribis.github.io/files/Blue_noise_for_diffusion_models/thumbnail.png"
 ---
 
-![Teaser](http://iribis.github.io/files/Blue_noise_for_diffusion_models/teaser.jpg)
+![Teaser](http://iribis.github.io/files/Blue_noise_for_diffusion_models/teaser.png)
 
 ### Abstract
 
