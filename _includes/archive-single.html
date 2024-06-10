@@ -15,11 +15,11 @@
   <tr>
     <td style="border: 0">
       <a href="{{ post.url }}">
-        <img width="auto" height="300px" src="{{ post.header.thumbnail }}">
+        <img width="300px" src="{{ post.header.thumbnail }}">
         <!--<img alt="Thumbnail" src="{{ post.header.thumbnail }}">-->
      </a>
     </td>
-    <td style="border: 0"><div class="{{ include.type | default: "list" }}__item">
+    <td style="border: 10"><div class="{{ include.type | default: "list" }}__item">
       <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
         {% if include.type == "grid" and teaser %}
           <div class="archive__item-teaser">
