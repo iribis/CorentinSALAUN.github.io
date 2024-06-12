@@ -17,3 +17,9 @@ My main interests are :
 * Multi-class sampling
 * General variance reduction tools for Monte Carlo
 
+# Latest publications
+{% assign last_three_posts = site.publications | sort: 'date' | reverse | slice: 0, 3 %}
+{% for post in last_three_posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
