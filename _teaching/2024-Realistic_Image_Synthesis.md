@@ -13,4 +13,4 @@ This advanced lecture discusses the mathematical concepts and algorithms that ar
 In this course I gave lectures on the following subjects:
 - [Probability theory and Monte Carlo](https://graphics.cg.uni-saarland.de/courses/ris-2024/slides/04-ProbabilityTheory_MonteCarlo.pdf)
 - [Percetual error distribution](https://graphics.cg.uni-saarland.de/courses/ris-2024/slides/09-BlueNoiseErrorDistribution.pdf)
-- [Bidirectional path tracing](https://graphics.cg.uni-saarland.de/courses/ris-2024/slides/09-BlueNoiseErrorDistribution.pdf)
+- [Bidirectional path tracing](https://graphics.cg.uni-saarland.de/courses/ris-2024/slides/10-Bidirectional_path_tracing.pdf)
