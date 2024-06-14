@@ -1,11 +1,11 @@
-<table style="border: 0px">
+<table style="border: 0px; width: 100%;">
   <tr>
-    <td style="border: 0;">
+    <td style="border: 0; width: 250px;">
       <a href="{{ post.url }}">
         <img style="width: 250px; height: auto;" src="{{ post.header.thumbnail }}">
       </a>
     </td>
-    <td style="border: 0">
+    <td style="border: 0; width: calc(100% - 250px);">
       <div class="{{ include.type | default: "list" }}__item">
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
           {% if include.type == "grid" and teaser %}
