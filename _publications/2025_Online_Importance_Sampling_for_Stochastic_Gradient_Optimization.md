@@ -1,6 +1,6 @@
 ---
 title: "Online Importance Sampling for Stochastic Gradient Optimization"
-authors: <a href="https://iribis.github.io/">Corentin Salaün</a>,<p><a href="https://xchhuang.github.io/">Xingchang Huang</a>, <a href="http://iliyan.com/">Iliyan Georgiev</a>,<a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>, <a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a></p>
+authors: <a href="https://iribis.github.io/">Corentin Salaün</a>, <p><a href="https://xchhuang.github.io/">Xingchang Huang</a>, <a href="http://iliyan.com/">Iliyan Georgiev</a>, <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra/">Niloy J. Mitra</a>, <a href="https://people.mpi-inf.mpg.de/~gsingh/">Gurprit Singh</a></p>
 collection: publications
 permalink: /publication/Online_Importance_Sampling_for_Stochastic_Gradient_Optimization
 excerpt: ''
